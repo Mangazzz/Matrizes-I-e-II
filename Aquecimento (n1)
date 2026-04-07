@@ -1,0 +1,11 @@
+golapolo = [
+    [10, 20, 30],
+    [40, 50, 60],
+    [70, 80, 90]
+]
+
+print ("O número central é:", golapolo[1][1])
+
+for linha in golapolo:
+    for coluna in linha:
+        print(coluna)
