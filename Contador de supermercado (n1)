@@ -1,0 +1,11 @@
+corredores = [
+    [5.50, 10.00, 4.00],
+    [12.00, 3.50, 8.00]
+]
+
+valor = 0
+
+for l in range(2):
+    for c in range(3):
+        valor = valor + corredores[l][c]
+        print ("o valor total é:", valor)
