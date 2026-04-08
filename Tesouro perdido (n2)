@@ -1,0 +1,11 @@
+mapa_tesouro = [
+    [0, 0, 1, 0],
+    [0, 1, 1, 0],
+    [0, 0, 9, 0],
+    [1, 0, 0, 0]
+]
+
+for linha in range(4):
+    for coluna in range(4):
+        if mapa_tesouro [linha][coluna] == 9:
+            print ("O tesouro foi encontrado! Ele está enterrado na linha", linha,"e coluna", coluna)
