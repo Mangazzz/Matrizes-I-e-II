@@ -10,4 +10,4 @@ for linha in notas:
     for maior in linha:
         if maior_nota < maior:
             maior_nota = maior
-            print ("A nota mais alta da turma é", {maior_nota})
+print ("A nota mais alta da turma é", {maior_nota})
