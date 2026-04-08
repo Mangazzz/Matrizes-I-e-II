@@ -1,0 +1,17 @@
+assentos = [
+    [0, 0, 0],
+    [0, 0, 0],
+    [0, 0, 0]
+]
+
+coluna = int(input("Coluna (0 a 2):"))
+linha = int(input("Fileira (0 a 2):"))
+
+
+if assentos[linha][coluna] == 1:
+    print("Erro: esta cadeira já está ocupada.")
+else:
+    print("Reserva feita com sucesso!")
+    assentos[linha][coluna] = 1
+
+print(assentos)
