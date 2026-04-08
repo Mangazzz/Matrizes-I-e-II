@@ -11,4 +11,4 @@ for l in range(3):
     for c in range(3):
         aluno = aluno + boletim[l][c] / 3
 
-    print(aluno)
+    print("A média do aluno", l, "foi:", aluno)
